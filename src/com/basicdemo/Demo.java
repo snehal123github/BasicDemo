@@ -5,12 +5,15 @@ import java.util.ArrayList;
 public class Demo {
 
 	public static void main(String[] args) {
-		ArrayList list=new ArrayList();
+		ArrayList<Integer> list=new ArrayList<Integer>();
 		list.add(11);
 		list.add(22);
 		list.add(33);
 		list.add(44);
-		System.out.println(list);
+		
+		for(Integer i:list) {
+			System.out.println(i);
+		}
 
 	}
 
